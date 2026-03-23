@@ -47,9 +47,10 @@ We'll measure success against each one.
 -->
 
 ---
-layout: image
-image: /assets/roadmap-overview.png
----
+
+<div class="w-full h-64 bg-gray-800 rounded-lg flex items-center justify-center text-gray-500 text-sm mt-4">
+  [ Roadmap overview — add image to public/assets/roadmap-overview.png ]
+</div>
 
 <!--
 This is an overview of the full Q3 roadmap as it looked on day 1.
@@ -64,7 +65,9 @@ layout: two-cols
 
 ## Architecture Before
 
-![Before diagram](/assets/arch-before.png)
+<div class="w-full h-48 bg-gray-800 rounded-lg flex items-center justify-center text-gray-500 text-sm">
+  [ Architecture diagram — add image to public/assets/arch-before.png ]
+</div>
 
 </template>
 <template v-slot:right>
@@ -101,7 +104,9 @@ We restructured squads at the start of Q3 to better align with product areas.
 </template>
 <template v-slot:right>
 
-![Team structure diagram](/assets/team-structure.png)
+<div class="w-full h-48 bg-gray-800 rounded-lg flex items-center justify-center text-gray-500 text-sm">
+  [ Team structure diagram — add image to public/assets/team-structure.png ]
+</div>
 
 </template>
 
