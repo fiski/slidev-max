@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Slidev Presentations</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #0f0f0f;
+      color: #e5e7eb;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 60px 24px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: #f9fafb;
+    }
+
+    .subtitle {
+      color: #9ca3af;
+      font-size: 1rem;
+      margin-bottom: 48px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 24px;
+      width: 100%;
+      max-width: 960px;
+    }
+
+    .card {
+      background-color: #1a1a1a;
+      border: 1px solid #2d2d2d;
+      border-radius: 12px;
+      padding: 28px;
+      text-decoration: none;
+      color: inherit;
+      transition: border-color 0.2s ease, transform 0.2s ease;
+      display: block;
+    }
+
+    .card:hover {
+      border-color: #60a5fa;
+      transform: translateY(-2px);
+    }
+
+    .card h2 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #f3f4f6;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 0.9rem;
+      color: #9ca3af;
+      line-height: 1.6;
+    }
+
+    .tag {
+      display: inline-block;
+      margin-top: 16px;
+      font-size: 0.75rem;
+      background-color: #1e3a5f;
+      color: #60a5fa;
+      padding: 3px 10px;
+      border-radius: 999px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Presentations</h1>
+  <p class="subtitle">A collection of Slidev presentations</p>
+
+  <div class="grid">
+    <a class="card" href="/slidev/sample-presentation/">
+      <h2>Q3 Product Roadmap Review</h2>
+      <p>
+        A comprehensive overview of our Q3 objectives, team milestones,
+        technical infrastructure decisions, and delivery timeline.
+      </p>
+      <span class="tag">sample</span>
+    </a>
+  </div>
+</body>
+</html>

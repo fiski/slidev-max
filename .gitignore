@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.DS_Store
+*.local
+presentations/*/node_modules/
+presentations/*/dist/
+_site/
+.slidev/

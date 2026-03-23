@@ -1,0 +1,18 @@
+{
+  "name": "slidev-presentations",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev:sample": "cd presentations/sample-presentation && npx slidev slides.md --port 3004",
+    "build:sample": "cd presentations/sample-presentation && npx slidev build slides.md --base /slidev/sample-presentation/",
+    "preview:sample": "cd presentations/sample-presentation && npx slidev build slides.md && npx serve dist"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.50.0",
+    "@slidev/theme-default": "^0.25.0"
+  },
+  "devDependencies": {
+    "@slidev/types": "^0.50.0"
+  }
+}
